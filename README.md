@@ -7,7 +7,7 @@ Connect your AI agent to Perklo and it can search real deals, check voucher code
 
 - **Endpoint:** `https://www.perklo.lol/mcp`
 - **Protocol:** `2025-11-25`
-- **Tools:** 27
+- **Tools:** 30
 - **Auth:** none — no key, no sign-up
 - **Docs:** https://www.perklo.lol/developers
 
@@ -17,6 +17,12 @@ Connect your AI agent to Perklo and it can search real deals, check voucher code
 - **Vouchers:** search voucher codes by store or country. Codes are international: US, UK, Germany, Austria and Switzerland.
 - **Tickets:** search and list ticket announcements (concerts, tours) with on-sale dates and tracked ticket links.
 - **Checks:** precheck a deal to see if it is still live and at the stated price, and wrap any URL in the right affiliate form.
+
+### New in v1.7.0
+
+- `price_history` — check how a product's price has changed over time.
+- `find_best_deal` — find the best current deal for something you are looking for.
+- `cheapest_now` — see the cheapest price available right now.
 
 Every link the server returns is a Perklo-tracked link (`/go/<id>`, `/voucher/go/<hash>`, `/tickets/go/<id>`).
 
