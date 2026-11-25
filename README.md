@@ -1,4 +1,5 @@
 # Perklo MCP Server
+[![Listed in Awesome MCP Servers](https://sagargupta.online/awesome-mcp-servers/badge.svg)](https://github.com/Sagargupta16/awesome-mcp-servers)
 
 Live UK deals, global voucher codes and ticket announcements, over MCP.
 
